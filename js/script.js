@@ -13,7 +13,7 @@ $(function(){
 			$(dato.items).each(function(indice, valor){
 				var urlImagen = valor.media.m;
 				console.log (urlImagen);
-				$('<img src="' + urlImagen + '" />').appendTo("#resultado");
+				$('<div class="polaroid"><img src="' + urlImagen + '" /></div>').appendTo("#resultado");
 			});
 		}
 	});

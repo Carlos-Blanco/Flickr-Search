@@ -1,17 +1,17 @@
-* {
-	margin:0;
-	padding:0;
-}
-body {
-	background: url(../images/pxpat.png);
-	color: #fff;
-	font-family: arial, verdana, tahoma;
-}
+* { padding:0; margin:0; }
+body { background-image:url(../images/bg.jpg); }
+.polaroid { width:368px; height:376px; background-image:url(../images/polaroid-bg.png);float:left;margin: 10px; }
+.polaroid img { width:335px; height:275px; margin:25px 0 0 15px; }
 h1 {
+	color:#666;
 	margin-top: 25px;
 	text-align: center;
 }
 #input {
-	margin-top: 30px;
+	margin: 30px;
 	text-align: center;
+}
+#resultado {
+	width: 90%;
+	margin: 0 auto;
 }
